@@ -9,6 +9,13 @@ body {
   background-attachment: fixed;
 }
 
+header {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
 main {
 
   height:100vh;
