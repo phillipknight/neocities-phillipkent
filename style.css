@@ -1,5 +1,30 @@
 /* remember geocities? this still wont be that cool */
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes tvShow {
+  from {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
+  to {background-image:url('https://thumbs.gfycat.com/PrestigiousHiddenBluegill-size_restricted.gif');}
+}
+
+/* Standard syntax */
+@keyframes tvShow {
+  from {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
+  to {background-image:url('https://thumbs.gfycat.com/PrestigiousHiddenBluegill-size_restricted.gif');}
+}
+
+body {
+  margin:0;
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation-name:tvShow;
+  animation-duration:20s;
+  animation-iteration-count:1;
+}
+
+
 body {
   margin:0;
   background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');
