@@ -2,14 +2,14 @@
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes tvShow {
-  from {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
-    to {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
+  0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
+    80% {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
 }
 
 /* Standard syntax */
 @keyframes tvShow {
-  from {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
-    to {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
+  0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
+    80% {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
   }
 
 body {
