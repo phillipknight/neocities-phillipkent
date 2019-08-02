@@ -61,3 +61,39 @@ footer {
   background-color:#000000;
   color:#ffffff;
 }
+
+
+h2 {
+    color: #000000;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    margin-left: 1rem;
+    /* text-align: center; */
+    margin-top: 2rem;
+    padding-top: 0.75rem;
+}
+
+section {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: monospace;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    width: 80vw;
+    word-break: break-word;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #ff7e00;
+}
+
+ul {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-left: 1rem;
+}
