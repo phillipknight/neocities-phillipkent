@@ -5,32 +5,32 @@
   0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
   5% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
   10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
-  20% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  25% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
   30% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
-  40% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-  50% {background-image:url('https://phillipkent.neocities.org/bike-lane.gif');}
+  42% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  47% {background-image:url('https://phillipkent.neocities.org/bike-lane.gif');}
   60% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
   70% {background-image:url('https://phillipkent.neocities.org/kickball.gif');}
   80% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-  90% {background-image:url('https://phillipkent.neocities.org/airplane-window.gif');}
+  85% {background-image:url('https://phillipkent.neocities.org/airplane-window.gif');}
   95% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
 }
 
 /* Standard syntax */
 @keyframes tvShow {
-    0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
-    5% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-    10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
-    20% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-    30% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
-    40% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-    50% {background-image:url('https://phillipkent.neocities.org/bike-lane.gif');}
-    60% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-    70% {background-image:url('https://phillipkent.neocities.org/kickball.gif');}
-    80% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-    90% {background-image:url('https://phillipkent.neocities.org/airplane-window.gif');}
-    95% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-      }
+  0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
+  5% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
+  25% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  30% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
+  42% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  47% {background-image:url('https://phillipkent.neocities.org/bike-lane.gif');}
+  60% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  70% {background-image:url('https://phillipkent.neocities.org/kickball.gif');}
+  80% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  85% {background-image:url('https://phillipkent.neocities.org/airplane-window.gif');}
+  95% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+    }
 
 body {
   margin:0;
@@ -41,8 +41,8 @@ body {
   background-attachment: fixed;
   -webkit-animation-name:tvShow;
   animation-name:tvShow;
-  -webkit-animation-duration:45s;
-  animation-duration:45s;
+  -webkit-animation-duration:60s;
+  animation-duration:60s;
   -webkit-animation-iteration-count:1;
   animation-iteration-count:1;
   scroll-snap-type: y mandatory;
