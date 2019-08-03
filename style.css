@@ -94,9 +94,8 @@ header .intro-text p {
 div.section-container {
 
 height:100vh;
-
-padding-top: 10rem;
-
+display: flex;
+align-items: center;
 scroll-snap-align: start;
 }
 
