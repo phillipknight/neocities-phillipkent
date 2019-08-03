@@ -3,18 +3,38 @@
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes tvShow {
   0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
-    80% {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
+  5% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
+  20% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  30% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
+  40% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  50% {background-image:url('https://phillipkent.neocities.org/bike-lane.gif');}
+  60% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  70% {background-image:url('https://phillipkent.neocities.org/kickball.gif');}
+  80% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+  90% {background-image:url('https://phillipkent.neocities.org/airplane-window.gif');}
+  95% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
 }
 
 /* Standard syntax */
 @keyframes tvShow {
-  0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
-    80% {background-image:url('https://media1.tenor.com/images/2fab8d23f8fcfa8954702408eb6d280c/tenor.gif?itemid=12674225');}
-  }
+    0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
+    5% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+    10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
+    20% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+    30% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
+    40% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+    50% {background-image:url('https://phillipkent.neocities.org/bike-lane.gif');}
+    60% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+    70% {background-image:url('https://phillipkent.neocities.org/kickball.gif');}
+    80% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+    90% {background-image:url('https://phillipkent.neocities.org/airplane-window.gif');}
+    95% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
+      }
 
 body {
   margin:0;
-  background-image:url('https://thumbs.gfycat.com/PrestigiousHiddenBluegill-size_restricted.gif');
+  background-image:url('https://phillipkent.neocities.org/water-ripples.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +71,7 @@ header .intro-text {
   padding: 0.25rem;
   font-size: 1.25rem;
   text-align: justify;
-  justify-self: right;
+  justify-self: center;
   grid-column: 2 / 3
 }
 
@@ -121,7 +141,7 @@ p {
     display:grid;
     align-items: center;
     height: 100%;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: auto 75% auto;
 
 }
 
