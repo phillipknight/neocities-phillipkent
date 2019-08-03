@@ -35,12 +35,7 @@
 body {
   margin:0;
   background-image:url('https://phillipkent.neocities.org/water-ripples.gif');
-  background-position-x:50%;
-<<<<<<< HEAD
-  background-position-y:50%;
-=======
-  background-position-y:bottom;
->>>>>>> 8d931167de7de221f8d9cde82f4b5d9f2c2c208d
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
