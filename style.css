@@ -91,7 +91,7 @@ header .intro-text p {
 }
 
 
-main {
+div.section-container {
 
 height:100vh;
 
@@ -125,7 +125,7 @@ section {
     background-color: #ffffff;
     color: #000000;
     font-family: monospace;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     border-radius: 1rem;
     max-width: 500px;
     width: 80vw;
