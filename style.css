@@ -148,7 +148,6 @@ p {
 
 
 .center {
-    display: flex;
     display:grid;
     align-items: center;
     height: 100%;
@@ -156,10 +155,21 @@ p {
 
 }
 
-a {}
+#portrait {
+    border-radius: 65% 35% 65% 35% / 31% 67% 33% 69% ;
+}
 
+#about-grid {
+  display: grid;
+  grid-template-columns: 33% auto;
+}
 
-
+figure#about-gif {
+  grid-column: 1/2;
+}
+ul#about-summary {
+  grid-column: 2/2;
+}
 section#elsewhere a {
     text-transform: lowercase;
 }
