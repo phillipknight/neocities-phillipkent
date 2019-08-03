@@ -4,7 +4,7 @@
 @-webkit-keyframes tvShow {
   0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
   10% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-  10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
+  15% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
   25% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
   35% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
   42% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
@@ -20,7 +20,7 @@
 @keyframes tvShow {
   0% {background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg');}
   10% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
-  10% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
+  15% {background-image:url('https://phillipkent.neocities.org/cherry-blossom.gif');}
   25% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
   35% {background-image:url('https://phillipkent.neocities.org/chomp-bed.gif');}
   42% {background-image:url('https://phillipkent.neocities.org/tv_static_by_tbh_1138-d3jmbjq.gif');}
