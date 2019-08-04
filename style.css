@@ -58,7 +58,7 @@ figure {
 }
 header {
   height:100vh;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 header h1 {
@@ -103,7 +103,7 @@ div.section-container {
 height:100vh;
 display: flex;
 align-items: center;
-scroll-snap-align: start;
+scroll-snap-align: center;
 }
 
 footer {
@@ -112,7 +112,7 @@ background-color:#000000;
 
 color:#ffffff;
 
-scroll-snap-align: start;
+scroll-snap-align: center;
 padding:1rem;
 }
 
