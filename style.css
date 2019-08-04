@@ -164,15 +164,24 @@ p {
 
 #about-grid {
   display: grid;
-  grid-template-columns: 33% auto;
+  grid-template-columns:auto;
+  grid-template-rows: auto;
   grid-gap: 1rem;
+  grid-template-areas:"picgif" "summary";
 }
-
+@media only screen and (min-width: 400px) {
+  #about-grid {
+    grid-template-columns: 33% auto;
+    grid-template-areas:"picgif summary";
+  }
+}
 figure#about-gif {
   grid-column: 1/2;
+  grid-area: picgif;
 }
 ul#about-summary {
   grid-column: 2/2;
+  grid-area: summary;
 }
 section#elsewhere a {
     text-transform: lowercase;
