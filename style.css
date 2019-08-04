@@ -191,9 +191,10 @@ section#elsewhere ul, section#about-me ul {
       padding-left: 1rem;
       padding-right: 1rem;
       margin-bottom: 0;
+      margin-top: 0;
 }
 
 
-ul#about-summary li {
+ul#about-summary li, #elsewhere ul li, #recs ul li {
     margin-bottom: 0.5rem;
 }
