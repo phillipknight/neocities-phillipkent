@@ -48,7 +48,14 @@ body {
   scroll-snap-type: y mandatory;
 }
 
+img {
+  width:100%;
+  max-width:100%;
+}
 
+figure {
+  margin:0;
+}
 header {
   height:100vh;
   scroll-snap-align: start;
@@ -110,21 +117,18 @@ padding:1rem;
 }
 
 
-h2 {
+section h2 {
     color: #000000;
     font-family: sans-serif;
     text-transform: lowercase;
-    margin-left: 1rem;
-    /* text-align: center; */
-    margin-top: 2rem;
-    padding-top: 0.75rem;
+    margin-top:0;
 }
 
 section {
     background-color: #ffffff;
     color: #000000;
     font-family: monospace;
-    padding-bottom: 1rem;
+    padding: 1rem;
     border-radius: 1rem;
     max-width: 500px;
     width: 80vw;
