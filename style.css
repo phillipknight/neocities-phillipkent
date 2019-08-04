@@ -180,6 +180,7 @@ figure#about-gif {
   grid-column: 1/2;
   grid-area: picgif;
   align-self:center;
+  justify-self: center;
 }
 ul#about-summary {
   grid-column: 2/2;
