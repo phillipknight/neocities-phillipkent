@@ -122,6 +122,7 @@ section h2 {
     font-family: sans-serif;
     text-transform: lowercase;
     margin-top:0;
+    margin-bottom: 1rem;
 }
 
 section {
@@ -192,6 +193,7 @@ section#elsewhere ul, section#about-me ul {
       padding-right: 1rem;
       margin-bottom: 0;
       margin-top: 0;
+      align-self: center;
 }
 
 
